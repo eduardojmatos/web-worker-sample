@@ -1,0 +1,31 @@
+
+.worker-input {
+  padding: 20px;
+  background-color: #ccc;
+  text-align: center;
+  font-size: 20px;
+}
+.worker-input input {
+  min-width: 30%;
+  font-size: 20px;
+}
+.worker-input button {
+  background-color: #000;
+  font-size: 20px;
+  color: #fff;
+}
+.worker-input button.disabled {
+  pointer-events: none;
+  background-color: #CCC;
+}
+
+.worker-messages {
+  padding: 60px;
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+}
+
+.worker-messages p {
+  transition: opacity .5s ease-in-out;
+}
